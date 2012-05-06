@@ -134,7 +134,7 @@
 			
 			$cell.attr( 'headers', id );
 			
-			if ( classes ) $cell.attr( 'class', classes );
+			if ( classes ) $cell.addClass(classes);
 			
 		}; // EndOf: "__trInit()" ###
 		
