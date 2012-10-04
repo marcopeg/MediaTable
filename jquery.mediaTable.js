@@ -122,10 +122,16 @@ http://www.consulenza-web.com/2012/01/mediatable-jquery-plugin/
 				wdg.$menu.toggleClass('mediaTableMenuClosed');
 			});
 			
+			wdg.$table.click(function() {
+                wdg.$menu.addClass('mediaTableMenuClosed');
+            });
+			
 			// Toggle list visibilty when mouse go outside the list itself.
-			wdg.$menu.$list.bind('mouseleave',function(){
+			wdg.$menu.$list.bind('mouseleave',function(e){
 				wdg.$menu.toggleClass('mediaTableMenuClosed');
+				e.stopPropagation();
 			});
+			
 			
 			
 		}; // EndOf: "__initMenu()" ###
