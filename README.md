@@ -1,3 +1,9 @@
+Media Table <small>jQuery Plugin</small>
+========================================
+
+Live Demo Here:  
+http://marcopeg.github.io/MediaTable
+
 --- IMPORTANT ---
 
 **THIS IS AN OLD REPOSITORY** 
@@ -5,5 +11,3 @@ I intentionally leave this repository available to remember me how I was coding 
 Please don't clone or use this repo because is certainly out of date!
 
 --- IMPORTANT --- 
-
-Please see it in action at http://marcopeg.github.io/MediaTable
