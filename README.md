@@ -1,8 +1,9 @@
-Media Table <small>jQuery Plugin</small>
-========================================
 
 Live Demo Here:  
 http://marcopeg.github.io/MediaTable
+
+
+
 
 --- IMPORTANT ---
 
