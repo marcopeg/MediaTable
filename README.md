@@ -6,4 +6,4 @@ Please don't clone or use this repo because is certainly out of date!
 
 --- IMPORTANT --- 
 
-Please see it in action at http://thepeg.github.io/MediaTable
+Please see it in action at http://marcopeg.github.io/MediaTable
