@@ -110,7 +110,12 @@ http://www.consulenza-web.com/2012/01/mediatable-jquery-plugin/
 			
 			// Setup menu title (handler)
 			wdg.$menu.$header.text(wdg.cfg.menuTitle);
-			wdg.$table.before(wdg.$menu);
+            
+			if (wdg.cfg.menuPlacement) {
+				wdg.cfg.menuPlacement(wdg.$menu);
+			} else {
+				wdg.$table.before(wdg.$menu);
+			}
 			
 			// Bind screen change events to update checkbox status of displayed fields.
 			$(window).bind('orientationchange resize',function(){
@@ -261,6 +266,7 @@ http://www.consulenza-web.com/2012/01/mediatable-jquery-plugin/
 			// Teach the widget to create a toggle menu to declare column's visibility
 			menu:		true,
 			menuTitle:	'Columns:',
+			menuPlacement: false,
 			
 		t:'e'},arguments[0]);
 		// -- default configuration block --
