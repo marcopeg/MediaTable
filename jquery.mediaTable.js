@@ -198,10 +198,10 @@ http://www.consulenza-web.com/2012/01/mediatable-jquery-plugin/
 				
 				//if ( $th.css("display") ==  "table-cell") {
 				if ( $th.is(':visible') ) {
-					$checkbox.attr("checked", true);
+					$checkbox.prop("checked", true);
 				}
 				else {
-					$checkbox.attr("checked", false);
+					$checkbox.prop("checked", false);
 				};
 			
 			};
@@ -284,7 +284,7 @@ http://www.consulenza-web.com/2012/01/mediatable-jquery-plugin/
 		}
 		
 		
-		// Mantengo la possibilitˆ di concatenare plugins.
+		// Mantengo la possibilitï¿½ di concatenare plugins.
 		return this;
 		
 	}; // EndOf: "$.fn.mediaTable()" ###
