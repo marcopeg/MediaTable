@@ -160,7 +160,7 @@ http://www.consulenza-web.com/2012/01/mediatable-jquery-plugin/
 			}
 			
 			// Propagate column's properties to each cell.
-			$('tbody tr',wdg.$table).each(function(){	__trInit.call( this, i, id, classes ); });
+			wdg.$table.find('> tbody tr').each(function(){	__trInit.call( this, i, id, classes ); });
 			
 		}; // EndOf: "__thInit()" ###
 		
@@ -284,7 +284,7 @@ http://www.consulenza-web.com/2012/01/mediatable-jquery-plugin/
 		}
 		
 		
-		// Mantengo la possibilitˆ di concatenare plugins.
+		// Mantengo la possibilitï¿½ di concatenare plugins.
 		return this;
 		
 	}; // EndOf: "$.fn.mediaTable()" ###
